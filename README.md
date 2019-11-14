@@ -1,4 +1,4 @@
-# Cypress + Testing Library starter peoject
+# Cypress + Testing Library starter project
 
 ### Installation instructions
 
