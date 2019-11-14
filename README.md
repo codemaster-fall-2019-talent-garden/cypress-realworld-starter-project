@@ -4,7 +4,7 @@
 
 - (be sure that you have already installed the project through `$ npm install`)
 - launch the front-end project with `$ npm start`
-- open Cypress with `$ npm run cy:open`
+- (in another Terminal tab) open Cypress with `$ npm run cy:open`
 
 ### Installation instructions
 
