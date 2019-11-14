@@ -6,7 +6,8 @@
     "@testing-library/cypress": "^5.0.2",
     "cross-env": "^5.1.4",
     "cypress": "^3.6.1",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "start-server-and-test": "^1.10.6"
   },
   "dependencies": {
     "history": "^4.6.3",
@@ -27,6 +28,7 @@
   "scripts": {
     "start": "cross-env PORT=4100 react-scripts start",
     "build": "react-scripts build",
+    "test:cypress": "start-server-and-test start http://localhost:4100 cy:run",
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
